@@ -12,7 +12,7 @@ def rectarea(request):
         print('request=',request)
         print('Length=',l)
         print('Breadth=',b)
-        area = 2*(int(l)**2) + 4*int(l)*int(b)
+        area = (2*3.14*int(l)*int(b))+2*3.14*int(l)*int(l)
         context['area'] = area
         context['l'] = l
         context['b'] = b
